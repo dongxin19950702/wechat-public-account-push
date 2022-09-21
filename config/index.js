@@ -2,19 +2,8 @@ export const config = {
   /**
    * 公众号配置
    */
-
-  // 公众号APP_ID
-  // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
-  // 如果你非要填这里也行。脚本也能运行
   APP_ID: "wxec24533ba2d0c56e",
-
-  // 公众号APP_SECRET
-  // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
-  // 如果你非要填这里也行。脚本也能运行
   APP_SECRET: "d15dd0e284106f0197a159a8831eaa26",
-
-  // 是否给文字设置多彩颜色, 和emoji不兼容
-  // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
   IS_SHOW_COLOR: true,
 
   // 功能开关,打开：true，关闭：false
@@ -119,9 +108,9 @@ export const config = {
   /** 天气相关 */
 
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
-  PROVINCE: "广东",
+  PROVINCE: "贵州",
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
-  CITY: "惠州",
+  CITY: "贵阳",
 
   /** 重要节日相关 */
 
